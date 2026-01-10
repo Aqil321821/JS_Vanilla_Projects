@@ -32,8 +32,6 @@ The purpose of this repository is to:
 
 ---
 
----
-
 ## 📋 Projects List
 
 Below is the list of projects included in this repository.  
