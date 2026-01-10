@@ -28,7 +28,7 @@ The purpose of this repository is to:
 - DOM Manipulation
 - Browser APIs
 - LocalStorage
-- Fetch API 
+- Fetch API
 
 ---
 
@@ -39,15 +39,9 @@ The purpose of this repository is to:
 Below is the list of projects included in this repository.  
 Each project is stored in its own folder with a dedicated README.
 
-| S.No | Project Name    | Live / Repo Link |
-| ---: | --------------- | ---------------- |
-|    1 | Calculator App  | 🔗               |
-|    2 | Quiz App        | 🔗               |
-|    3 | Todo App        | 🔗               |
-|    4 | Weather App     | 🔗               |
-|    5 | Expense Tracker | 🔗               |
-
-
+| S.No | Project Name   | Live / Repo Link                                |
+| ---: | -------------- | ----------------------------------------------- |
+|   01 | Calculator App | [Live Demo](https://aaqil.github.io/calculator) |
 
 ---
 
