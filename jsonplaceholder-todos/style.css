@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background: salmon;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff5a5a;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  border: 1px #ccc solid;
+  margin-right: 10px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#todo-list > div {
+  border: 1px #ddd solid;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#todo-list > div:hover {
+  background: #f1f1f1;
+}
+
+.done {
+  background: #d3ffd3;
+  text-decoration: line-through;
+  color: #555;
+}
