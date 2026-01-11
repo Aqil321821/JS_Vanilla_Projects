@@ -4,8 +4,11 @@ const input = document.getElementById('item-input');
 const list = document.getElementById('item-list');
 const filter = document.getElementById('filter');
 const clearAll = document.getElementById('clear');
+const formBtn = form.querySelector('button');
+let isEditMode = false;
 
 function checkUI() {
+  input.value = '';
   const items = list.querySelectorAll('li');
   if (items.length === 0) {
     clearAll.style.display = 'none';
@@ -14,6 +17,10 @@ function checkUI() {
     clearAll.style.display = 'block';
     filter.style.display = 'block';
   }
+  formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> Add Item';
+  formBtn.style.backgroundColor = '#667eea';
+
+  isEditMode = false;
 }
 
 function createIcon(classes) {
@@ -62,6 +69,20 @@ function onAddItemSubmit(e) {
     alert('Plz fill the fields');
     return;
   }
+
+  if (isEditMode) {
+    const itemToEdit = list.querySelector('.edit-mode');
+    removeItemFromStorage(itemToEdit.textContent);
+    itemToEdit.classList.remove('edit-mode');
+    itemToEdit.remove();
+    isEditMode = false;
+  } else {
+    if (checkItemExist(newItem)) {
+      alert('Alraedy in list');
+      return;
+    }
+  }
+
   addItemToDOM(newItem);
   addItemToLocalStorage(newItem);
   checkUI();
@@ -79,7 +100,23 @@ function displayItems() {
 function onClickItem(e) {
   if (e.target.parentElement.classList.contains('remove-item')) {
     removeItem(e.target.parentElement.parentElement);
+  } else {
+    setItemToEdit(e.target);
   }
+}
+function checkItemExist(item) {
+  const itemsFromStorage = getItemsFromStorage();
+  return itemsFromStorage.includes(item);
+}
+
+function setItemToEdit(item) {
+  isEditMode = true;
+  list.querySelectorAll('li').forEach((i) => i.classList.remove('edit-mode'));
+  item.classList.add('edit-mode');
+  formBtn.innerHTML = '<i class="fa-solid fa-pen"></i> Update Item';
+  formBtn.style.backgroundColor = '#228B22';
+  input.focus();
+  input.value = item.textContent.trim();
 }
 
 function removeItemFromStorage(item) {

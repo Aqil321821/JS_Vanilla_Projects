@@ -15,6 +15,10 @@ body {
   color: #333;
   background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
 }
+/* class applied via JS on each li */
+.edit-mode {
+  color: #ccc;
+}
 
 /* =====================
    Container
@@ -63,8 +67,6 @@ header h1 {
   transition: border 0.3s, box-shadow 0.3s;
   margin-top: 20px;
 }
-.form-input {
-}
 
 .form-input:focus,
 .form-input-filter:focus {
@@ -83,6 +85,17 @@ header h1 {
    Buttons
 ===================== */
 .btn {
+  width: 100%;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn-2 {
   width: 100%;
   background-color: #667eea;
   color: #fff;
