@@ -37,9 +37,9 @@ The purpose of this repository is to:
 Below is the list of projects included in this repository.  
 Each project is stored in its own folder with a dedicated README.
 
-| S.No | Project Name  | Live / Repo Link                                |
-| ---: | ------------- | ----------------------------------------------- |
-|   01 | Shop List App | [Live Demo](https://aaqil.github.io/calculator) |
+| S.No | Project Name  | Live / Repo Link                                 |
+| ---: | ------------- | ------------------------------------------------ |
+|   01 | Shop List App | [Live Demo](https://shop-list-aqil.netlify.app/) |
 
 ---
 
