@@ -9,14 +9,33 @@ class CalorieTracker {
     this._meals.push(meal);
     this._totalCalories += meal.calories;
   }
-  addWorkout(workuot) {
-    this._workouts.push(workuot);
-    this._totalCalories -= workuot.calories;
+  addWorkout(workout) {
+    this._workouts.push(workout);
+    this._totalCalories -= workout.calories;
   }
 }
 
 class Meal {
   constructor(name, calories) {
-    this.id = Math.random().toString(16);
+    this.id = Math.random().toString(16).slice(2);
+    this.name = name;
+    this.calories = calories;
   }
 }
+class Workout {
+  constructor(name, calories) {
+    this.id = Math.random().toString(16).slice(2);
+    this.name = name;
+    this.calories = calories;
+  }
+}
+
+const tracker = new CalorieTracker();
+const breakfast = new Meal('Breakfast', 400);
+
+const run = new Workout('Run', 300);
+tracker.addWorkout(run);
+
+console.log(tracker._meals);
+console.log(tracker._workouts);
+console.log(tracker._totalCalories);
