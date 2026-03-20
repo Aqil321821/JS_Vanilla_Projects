@@ -44,9 +44,9 @@ Each project is stored in its own folder with a dedicated README.
 |   03 | Joke-Generator using xhr object | [Live Demo](https://joke-generator-aqil2.netlify.app/)      |
 |   04 | Movie App using TMDB API        | [Live Demo](https://movie-app-aqil.netlify.app/)            |
 |   05 | Track Calorie App (OOP)         | [Live Demo](https://track-calorie-webpack-rao.netlify.app/) |
-|   06 | Profile Scoller using Iterator  | [Live Demo]()                                               |
-|   07 | Poll Project using Maps         | [Live Demo]()                                               |
-|   08 | Form Validator                  | [Live Demo]()                                               |
+|   06 | Profile Scoller using Iterator  | [Live Demo](https://profile-scroll-aqil.netlify.app/)       |
+|   07 | Poll Project using Maps         | [Live Demo](https://poll-aqil.netlify.app/)                 |
+|   08 | Form Validator                  | [Live Demo](https://form-validator-aqil.netlify.app/)       |
 
 ---
 
