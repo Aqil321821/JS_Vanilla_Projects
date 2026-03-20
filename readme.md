@@ -46,6 +46,7 @@ Each project is stored in its own folder with a dedicated README.
 |   05 | Track Calorie App (OOP)         | [Live Demo](https://track-calorie-webpack-rao.netlify.app/) |
 |   06 | Profile Scoller using Iterator  | [Live Demo]()                                               |
 |   07 | Poll Project using Maps         | [Live Demo]()                                               |
+|   08 | Form Validator                  | [Live Demo]()                                               |
 
 ---
 
