@@ -48,6 +48,7 @@ Each project is stored in its own folder with a dedicated README.
 |   07 | Poll Project using Maps         | [Live Demo](https://poll-aqil.netlify.app/)                 |
 |   08 | Form Validator                  | [Live Demo](https://form-validator-aqil.netlify.app/)       |
 |   09 | Exchange App                    | [Live Demo](https://exchange-rate-aqil-rao.netlify.app/)    |
+|   10 | Custom video player             | [Live Demo]()                                               |
 
 ---
 
