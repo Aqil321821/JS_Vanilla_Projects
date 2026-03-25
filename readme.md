@@ -50,6 +50,7 @@ Each project is stored in its own folder with a dedicated README.
 |   09 | Exchange App                    | [Live Demo](https://exchange-rate-aqil-rao.netlify.app/)    |
 |   10 | Custom video player             | [Live Demo]()                                               |
 |   11 | Slider Menu                     | [Live Demo]()                                               |
+|   12 | Meal Finder using MealDB API    | [Live Demo]()                                               |
 
 ---
 
