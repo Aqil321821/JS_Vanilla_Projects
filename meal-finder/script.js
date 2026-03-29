@@ -125,6 +125,7 @@ function loadTodaysMenu() {
   }
   console.log(mealPromises);
   Promise.all(mealPromises).then((results) => {
+    console.log(results);
     const mealsHTML = results
       .map((data) => {
         const meal = data.meals[0];
