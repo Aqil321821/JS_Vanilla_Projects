@@ -122,8 +122,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
-  height: 4px;
+  height: 8px;
   width: 100%;
+}
+.navigation i:active {
+  color: #5f5f5f;
 }
 
 .progress {
