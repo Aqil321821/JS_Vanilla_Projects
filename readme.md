@@ -37,20 +37,23 @@ The purpose of this repository is to:
 Below is the list of projects included in this repository.  
 Each project is stored in its own folder with a dedicated README.
 
-| S.No | Project Name                    | Live / Repo Link                                            |
-| ---: | ------------------------------- | ----------------------------------------------------------- |
-|   01 | Shop List App                   | [Live Demo](https://shop-list-aqil.netlify.app/)            |
-|   02 | JSONPlaceholder Todo App        | [Live Demo](https://json-todos-aqil.netlify.app/)           |
-|   03 | Joke-Generator using xhr object | [Live Demo](https://joke-generator-aqil2.netlify.app/)      |
-|   04 | Movie App using TMDB API        | [Live Demo](https://movie-app-aqil.netlify.app/)            |
-|   05 | Track Calorie App (OOP)         | [Live Demo](https://track-calorie-webpack-rao.netlify.app/) |
-|   06 | Profile Scoller using Iterator  | [Live Demo](https://profile-scroll-aqil.netlify.app/)       |
-|   07 | Poll Project using Maps         | [Live Demo](https://poll-aqil.netlify.app/)                 |
-|   08 | Form Validator                  | [Live Demo](https://form-validator-aqil.netlify.app/)       |
-|   09 | Exchange App                    | [Live Demo](https://exchange-rate-aqil-rao.netlify.app/)    |
-|   10 | Custom video player             | [Live Demo]()                                               |
-|   11 | Slider Menu                     | [Live Demo]()                                               |
-|   12 | Meal Finder using MealDB API    | [Live Demo]()                                               |
+| S.No | Project Name                        | Live / Repo Link                                            |
+| ---: | ----------------------------------- | ----------------------------------------------------------- |
+|   01 | Shop List App                       | [Live Demo](https://shop-list-aqil.netlify.app/)            |
+|   02 | JSONPlaceholder Todo App            | [Live Demo](https://json-todos-aqil.netlify.app/)           |
+|   03 | Joke-Generator using xhr object     | [Live Demo](https://joke-generator-aqil2.netlify.app/)      |
+|   04 | Movie App using TMDB API            | [Live Demo](https://movie-app-aqil.netlify.app/)            |
+|   05 | Track Calorie App (OOP)             | [Live Demo](https://track-calorie-webpack-rao.netlify.app/) |
+|   06 | Profile Scoller using Iterator      | [Live Demo](https://profile-scroll-aqil.netlify.app/)       |
+|   07 | Poll Project using Maps             | [Live Demo](https://poll-aqil.netlify.app/)                 |
+|   08 | Form Validator                      | [Live Demo](https://form-validator-aqil.netlify.app/)       |
+|   09 | Exchange App                        | [Live Demo](https://exchange-rate-aqil-rao.netlify.app/)    |
+|   10 | Custom video player using Video API | [Live Demo]()                                               |
+|   11 | Slider Menu                         | [Live Demo]()                                               |
+|   12 | Meal Finder using MealDB API        | [Live Demo]()                                               |
+|   13 | MP3 Player Using Audio API          | [Live Demo]()                                               |
+|   14 | Infinite Scroll Project             | [Live Demo]()                                               |
+|   15 | Typing Game                         | [Live Demo]()                                               |
 
 ---
 
