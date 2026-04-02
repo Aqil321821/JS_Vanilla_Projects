@@ -54,6 +54,8 @@ Each project is stored in its own folder with a dedicated README.
 |   13 | MP3 Player Using Audio API          | [Live Demo]()                                               |
 |   14 | Infinite Scroll Project             | [Live Demo]()                                               |
 |   15 | Typing Game                         | [Live Demo]()                                               |
+|   16 | Text to Speech Web speech API       | [Live Demo]()                                               |
+|   17 | whatsapp chat viewer                | [Live Demo]()                                               |
 
 ---
 

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Chat Viewer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <h1>WhatsApp Chat Viewer</h1>
+        <p>Upload exported chat file and view it in a clean UI</p>
+      </header>
+
+      <section class="upload-section">
+        <label for="chatFile" class="file-label">Choose Chat File</label>
+        <input type="file" id="chatFile" accept=".txt" />
+      </section>
+
+      <section class="controls">
+        <input type="text" id="searchInput" placeholder="Search messages..." />
+
+        <select id="senderFilter">
+          <option value="all">All Senders</option>
+        </select>
+        <select id="mySender">
+          <option value="">Select Your Name</option>
+        </select>
+        <input type="date" id="specificDate" />
+        <button id="clearDateFilter">Clear Date</button>
+      </section>
+
+      <main class="chat-wrapper">
+        <div class="chat-header">
+          <h2 id="chatTitle">No Chat Loaded</h2>
+        </div>
+
+        <div id="chatContainer" class="chat-container">
+          <div class="empty-state">
+            <p>Upload a WhatsApp exported .txt file to see messages here.</p>
+          </div>
+        </div>
+        <button id="fullscreenBtn">⛶ Full Screen</button>
+      </main>
+
+      <section class="stats">
+        <div class="stat-box">
+          <h3>Total Messages</h3>
+          <p id="totalMessages">0</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>Total Senders</h3>
+          <p id="totalSenders">0</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="final.js"></script>
+  </body>
+</html>
