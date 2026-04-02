@@ -56,6 +56,7 @@ Each project is stored in its own folder with a dedicated README.
 |   15 | Typing Game                         | [Live Demo]()                                               |
 |   16 | Text to Speech Web speech API       | [Live Demo]()                                               |
 |   17 | whatsapp chat viewer                | [Live Demo]()                                               |
+|   18 | New Year Countdown                  | [Live Demo]()                                               |
 
 ---
 
