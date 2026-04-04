@@ -58,6 +58,7 @@ Each project is stored in its own folder with a dedicated README.
 |   17 | whatsapp chat viewer                | [Live Demo]()                                               |
 |   18 | New Year Countdown                  | [Live Demo]()                                               |
 |   19 | E-Comm Cart & Filter UI             | [Live Demo]()                                               |
+|   20 | Dark and Light Mode                 | [Live Demo]()                                               |
 
 ---
 
