@@ -59,6 +59,7 @@ Each project is stored in its own folder with a dedicated README.
 |   18 | New Year Countdown                  | [Live Demo]()                                               |
 |   19 | E-Comm Cart & Filter UI             | [Live Demo]()                                               |
 |   20 | Dark and Light Mode                 | [Live Demo]()                                               |
+|   21 | Animated web page using library     | [Live Demo]()                                               |
 
 ---
 
